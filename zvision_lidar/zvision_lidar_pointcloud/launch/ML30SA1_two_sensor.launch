@@ -1,5 +1,5 @@
 <launch>
-<group ns="ns1">
+<group ns="lidar001">
   <arg name="manager" default="zvision_lidar_nodelet_manager" />
   <arg name="model" default="ML30SA1" />
   <arg name="device_ip" default="192.168.1.201" />
@@ -36,7 +36,7 @@
 </group>
 
 
-<group ns="ns2">
+<group ns="lidar002">
   <arg name="manager" default="zvision_lidar_nodelet_manager" />
   <arg name="device_ip" default="192.168.1.202" />
   <arg name="model" default="ML30SA1" />
